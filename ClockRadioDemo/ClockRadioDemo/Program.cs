@@ -10,6 +10,9 @@ namespace ClockRadioDemo
     {
         static void Main(string[] args)
         {
+            RunClockRadio myRunClockRadio = new ClockRadioDemo.RunClockRadio();
+            myRunClockRadio.Start();
+            Console.ReadKey();
         }
     }
 }

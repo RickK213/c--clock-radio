@@ -8,9 +8,9 @@ namespace ClockRadioDemo
 {
     class ClockRadio
     {
-        string time = "4:20PM";
-        bool isAlarmSet;
-        string currentRadioStation;
+        public string time = "1:16PM";
+        public bool isAlarmSet;
+        public string currentRadioStation;
 
         public void SetAlarm()
         {
@@ -21,4 +21,5 @@ namespace ClockRadioDemo
             currentRadioStation = newStation;
         }
     }
+    
 }
